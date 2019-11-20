@@ -1,0 +1,11 @@
+
+<h1>Themes</h1>
+<div class="ct">
+    <div *ngFor="let e of data"  class="theme">
+     <h3> {{e.title}}</h3>
+     <img [src]="e.logo" />
+     <p>{{e.description}}</p>
+    <a href="/quiz/{{e.slug}}"  >Go...</a>
+    <a [routerLink]="['/quiz',e.slug]" routerLinkActive="active" >Go2...</a>
+    </div>
+</div>

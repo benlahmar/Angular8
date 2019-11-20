@@ -1,0 +1,24 @@
+.theme{
+    width: 260px;
+    height: 260px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px;
+    border-block-color: blue;
+    float: left;
+    padding: 5px;
+    margin: 5px;;
+text-align: center;
+    transform-origin: left;
+    
+}
+
+.theme > img{
+    width: 80px;
+}
+
+
+.ct{
+    perspective: 400px;
+    transform-style: preserve-3d;
+    
+}

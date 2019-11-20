@@ -1,0 +1,59 @@
+.quizroot{
+    text-align: center;
+    position: absolute;
+    left: 150px;;
+    top: 50px;
+    margin-top: 10px;;
+}
+
+.quiz{
+    width: 500px;
+    background-color:gold;
+}
+
+.answered{
+    width: 80px;
+    height: 80px;
+    background-color:greenyellow;
+    float: left;
+    padding: 4px;
+    margin: 5px;;
+}
+.not-answered{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    padding: 4px;
+    margin: 5px;;
+    float: left;
+}
+
+.correct{
+    width: 280px;
+    height: 280px;
+    background-color:greenyellow;
+    float: left;
+    padding: 4px;
+    margin: 5px;;
+}
+.not-correct{
+    width: 280px;
+    height: 280px;
+    background-color: red;
+    padding: 4px;
+    margin: 5px;;
+    float: left;
+}
+nav{
+    background-color:rgba(23,44,233,0.5);
+    padding: 5px;;
+    margin: 5px;
+}
+nav>ul{
+    list-style: none;
+}
+nav >ul>li{
+    display: inline-block;
+    padding: 4px;
+    margin: 5px;;
+}

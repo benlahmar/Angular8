@@ -1,0 +1,11 @@
+
+<div>
+    {{question.name}} {{rp}}
+    <ul >
+            <li *ngFor="let o of question.options">
+
+                
+               <app-response (notifier)="recept($event)" [reponse]="o"></app-response>
+            </li>
+        </ul>
+</div>
