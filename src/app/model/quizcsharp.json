@@ -368,10 +368,10 @@
     {
         "allowBack": false,
         "allowReview": false,
-        "autoMove": false,  //  
-        "duration": 10,  // 
+        "autoMove": false,
+        "duration": 10,
         "pageSize": 1,
-        "requiredAll": false,  // 
+        "requiredAll": false,
         "richText": false,
         "shuffleQuestions": false,
         "shuffleOptions": false,
