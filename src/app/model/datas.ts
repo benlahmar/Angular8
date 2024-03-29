@@ -363,5 +363,19 @@ export const  ques={
                 "isActive": true
             }
         }
-    ]
+    ],
+  "config":{
+    allowBack: true,
+    allowReview: true,
+    autoMove: false,    
+    duration: 10,  // 
+    pageSize: 1,
+    requiredAll: false,
+    richText: false,
+    shuffleQuestions: false,
+    shuffleOptions: false,
+    showClock: true,
+    showPager: true
+    
+    }
 };
